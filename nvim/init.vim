@@ -1,5 +1,5 @@
 set tabstop=4
-set softtabstop=0 noexpandtab
+"set softtabstop=0 noexpandtab                   NO IDEA WTF THIS DOES
 set shiftwidth=4
 " Plugins will be downloaded under the specified directory.
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
@@ -118,7 +118,6 @@ set ignorecase                    " ignore case when searching
 set smartcase                     " turn on smartcase
 " Tab and Indent configuration
 set expandtab
-set tabstop=4
 set shiftwidth=4
 " vim-autoformat
 noremap <F3> :Autoformat<CR>
